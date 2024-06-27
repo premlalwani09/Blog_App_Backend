@@ -7,7 +7,7 @@ import path from "path";
 const app = express();
 const port = 4000;
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://blog-app-frontend-hw3x.onrender.com" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
